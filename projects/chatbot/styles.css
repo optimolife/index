@@ -1,0 +1,209 @@
+body {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  background-image: linear-gradient(
+    50deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(9, 159, 180, 0.5046393557422969) 100%,
+    rgba(252, 176, 69, 1) 100%
+  );
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.options {
+  margin-right: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #353535;
+  padding: 75px;
+  border-radius: 25px;
+  gap: 1rem;
+  width: 500px;
+  height: 70%;
+
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  color: white;
+  width: 300px;
+  height: 200px;
+  font-size: 22px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #353535;
+  padding: 25px;
+  border-radius: 25px;
+  margin-left: auto;
+  width: fit-content;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  position: relative;
+  font-size: 50px;
+
+  color: white;
+}
+#textArea {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  gap: 10px;
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  position: relative;
+  background-color: white;
+  overflow-y: auto;
+  scroll-behavior: inherit;
+}
+/* span {
+  display: block;
+} */
+.main #im_input {
+  justify-self: center;
+  margin-top: 50px;
+  align-self: center;
+  height: fit-content;
+  width: 400px;
+  font-size: 20px;
+  padding: 0px;
+}
+#botInput {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: rgb(216, 235, 195);
+  justify-self: center;
+  color: black;
+  margin: 10px;
+  align-self: center;
+  height: 100px;
+  width: 400px;
+  font-size: 20px;
+  overflow-y: auto;
+}
+label {
+  color: white;
+  font-size: 20px;
+}
+#inputLabel {
+  padding: 0px;
+  position: absolute;
+
+  width: fit-content;
+  color: white;
+  /* display: flex; */
+  flex-direction: row;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+.botInputContainer {
+  justify-content: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+}
+#submit {
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+}
+.chatBot {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(216, 235, 195);
+}
+
+.human {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(200, 219, 235);
+}
+.system {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(236, 199, 199);
+}
+.textOutput {
+  padding-left: 10px;
+  background-color: white;
+}
+/* span > span {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+} */
+
+#chatScriptArea {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  width: 500px;
+  height: 400px;
+  color: black;
+  /* background-color: white; */
+  margin: 5px;
+}
+
+/* #chatScriptArea span {
+    background-color: white;
+    margin: 5px;
+  } */
+.scriptDiv {
+  margin: 10px;
+  display: flex;
+  background-color: black;
+}
+
+.options > button {
+  width: 100px;
+  height: 40px;
+}
+
+.dashSpan {
+  color: white;
+  background-color: #353535;
+}
+
+.newSpan {
+  background-color: white;
+}
+
+#tokenTestedText {
+  color: black;
+  background-color: white;
+  width: 450px;
+  height: 250px;
+}
